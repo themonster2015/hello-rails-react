@@ -1,24 +1,80 @@
-# README
+# Hello Rails React
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> A starter project built with React on Rails to display a hello message in different languages on page reload.
 
-Things you may want to cover:
+![screenshot](./app_screenshot.png)
 
-* Ruby version
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
+- React
+- Postgres
+- Redux
 
-* Database creation
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+To get a local copy up and running follow these simple example steps.
 
-* Deployment instructions
+### Prerequisites
+- Ruby
+- Rails
+- Postgres
+- Node.js
+- Yarn
+- NPM
 
-* ...
+### Setup
+Clone the repository with:
+
+```git clone https://github.com/themonster2015/hello-rails-react.git```
+
+### Install dependencies
+
+```yarn install```
+
+### Set up the database
+
+```rails db:create```
+
+```rails db:migrate```
+
+```rails db:seed```
+
+
+### Start the server
+
+```rails s -p 3000```
+
+On another terminal, run ```./bin/webpack-dev-server``` and navigate to ```localhost:3000``` on your browser to view the page.
+
+
+## Authors
+
+👤 **Vo Thi Quynh Yen**
+
+- GitHub: [@githubhandle](https://github.com/themonster2015)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jen-vo-89bbb74b/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
