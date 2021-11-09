@@ -9,8 +9,7 @@ export default function App() {
     <Provider store={store()}>
     <BrowserRouter>
     <Routes>
-      <Route exact path='/' element={('Home')} />
-      <Route  path='/hello' element={<Greeting /> } />
+      <Route exacr path='/' element={<Greeting /> } />
 
     </Routes>
     </BrowserRouter>
