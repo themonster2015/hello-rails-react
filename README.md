@@ -2,8 +2,8 @@
 
 > A starter project built with React on Rails to display a hello message in different languages on page reload.
 
-![screenshot](./app_screenshot.png)
 
+![Screen Shot 2021-11-09 at 12 14 43](https://user-images.githubusercontent.com/10905837/141005216-1144a78b-0a24-439e-b3b6-59f9493812f8.png)
 
 ## Built With
 
